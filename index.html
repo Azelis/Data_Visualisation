@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student ID: ja5u19 / Data Visualisation</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <! –– First Chart ––>
+        <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+        <script type = "text/javascript">
+        google.charts.load('visualization', '1', {packages: ['corechart', 'controls']});    
+        </script>
+        <! –– Third Chart Same as First>
+        <! –– Fourth Chart ––>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+         <script src=graphs.js></script>
+        <! –– ------------- ––>
+        
+    </head>
+<body>
+    <div class="section1">
+    <h1>How much money do you need to live in different European countries?</h1>
+    </div> 
+     <div class="pre_section1">
+    <h2>What is included in living expenses?</h2>
+    <h3>Costs for comfortable daily life starting from necessary as housing, food
+    to personal wants as hotels, electronics, car, recreation. 
+    Rent prices are taken from the most expensive cities. 
+    If you can afford to cover all the expenses, you will have a comfortable life!
+    </h3>
+    <h3>
+    Living costs are assumed for 1 person, so accordingly 2 people should multiply two times.
+    </h3>
+    </div>    
+<! –– First Chart ----> 
+ <div class="section3">
+
+    <h2 id="titleis">
+    Current Living Expenses
+    </h2>
+
+
+    <div class='tableauPlaceholder' id='viz1578329665709' style='position: relative;  margin: 0 auto;'><noscript><a href='#'>
+    <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Eu&#47;Europe_v4&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+    </a>
+    </noscript>
+        <object class='tableauViz' >
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='Europe_v4&#47;Dashboard1' />
+    <param name='tabs' value='no' /><param name='toolbar' value='no' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Eu&#47;Europe_v4&#47;Dashboard1&#47;1.png' />
+    <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+    </object></div>                
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1578329665709');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 1000 )
+    { vizElement.style.width='1120px';vizElement.style.height='620px';} 
+    else { vizElement.style.width='1120px';vizElement.style.height='620px';}                     
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <h5>Data Source: Eurostat</h5>
+ </div>
+<! –– ---------------––>
+    <div class="section1" >
+<h3>
+        Regions* have more familiar living expenses. Starting with East Europe as least expensive region, 
+        following with South and West becomes more expensive while the North Europe has the highest living costs.
+        Smaller expenses can mean lower salaries. 
+        </h3>
+        <br>
+        <br>
+        <br>
+        <h2>Can the locals cover living expenses by annual net earnings? </h2>
+        <br>
+        <br>
+        <br>
+
+ 
+        <h4>
+        *Notes:
+        </h4>
+        <h4>
+        <font color="#F28E2B">
+        East Europe: 
+        </font>
+        <font color="#F28E2B">Bulgaria, Croatia, Czechia, Estonia, 
+        Lithuania,
+        </font>
+        <font color="#F28E2B">Latvia, Hungary,
+        Poland, Romania, Slovenia, Slovakia
+        </font>
+        </h4>
+        <h4>
+        <font color="#E15759">
+        South Europe:
+        </font>
+         <font color="#E15759"> Cyprus, Greece, Italy, Malta, Portugal, 
+            Spain
+         </font>
+        </h4>
+        <h4>
+        <font color="#59A14F">
+        West Europe:
+        </font>
+        <font color="#59A14F">
+         Austria, Belgium, Ireland, France, 
+        Germany,
+        </font> 
+        <font color="#59A14F">
+        Luxembourg, 
+        Netherlands, 
+        UK , 
+        </font>
+        <font color="#59A14F">Switzerland
+        </font>
+        </h4>
+        <h4>
+        <font color="#4E79A7"> North Europe: </font> 
+        <font color="#4E79A7">Denmark, Finland, 
+        Iceland, 
+        </font><font color="#4E79A7">Norway, Sweden </font>
+        </h4>
+    </div>
+<! –– First Chart ----> 
+ <div class="section3">
+
+    <h2 id="titleis">
+    Annual Net Earnings vs Living Expenses 
+    </h2>
+
+
+<div class='tableauPlaceholder' 
+id='viz1578602487054' 
+style='position: relative;  margin: 0 auto;'>
+<noscript><a href='#'>
+<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ne&#47;netearning&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+</a>
+</noscript><object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+<param name='embed_code_version' value='3' />
+<param name='site_root' value='' />
+<param name='name' value='netearning&#47;Dashboard1' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='no' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ne&#47;netearning&#47;Dashboard1&#47;1.png' />
+<param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='filter' value='publish=yes' />
+</object>
+</div>                
+<script type='text/javascript'>                    
+var divElement = document.getElementById('viz1578602487054');                    
+var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 800 )
+    { vizElement.style.width='1120px';vizElement.style.height='620px';} 
+    else
+    { vizElement.style.width='1120px';vizElement.style.height='620px';}           
+    var scriptElement = document.createElement('script');                      
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
+
+    <h5>Data Source: Eurostat, Switzerland Statistics Office  </h5>
+ </div>
+<! –– ------BEFORE LINE CHART---------––>
+
+    <div class="section1" >
+    <br>
+    <br>
+        <h3>
+        Regions* have familiar tendency again. 
+        Countries with lower living expenses cover less costs.
+        Richer countries covering more expenses while Iceland, Netherlands with Switzerland covers completely.
+        Less expensive countries are more expensive for the locals.
+        We will check if living expenses were similar in the past years to see a trend. 
+        Additionally, we will distinguish one country with highly increasing and decreasing living costs.
+        </h3>
+        <br>
+        <br>
+        <br>
+        <h2>How living expenses changed in the past? </h2>
+        <br>
+        <br>
+        <br>
+
+ 
+        <h4>
+        Notes: Buttons below filters the countries by regions
+        </h4>
+    
+    </div> 
+
+<! –– Second Chart ––>
+    <div class="section2">
+    <br>
+    <h2 id="titleis">
+    Yearly Living Expenses
+    </h2>
+        <div class="wrapper">
+            <input type = 'button' id = 'b1' value = 'All Europe' />
+            <input type = 'button' id = 'b2' value = 'North Europe' />
+            <input type = 'button' id = 'b3' value = 'West Europe' />
+            <input type = 'button' id = 'b4' value = 'South Europe' />
+            <input type = 'button' id = 'b5' value = 'East Europe' />    
+        </div>
+    <div id="curve_chart", style="max-width: 80%; max-height: 80%;"></div>
+    <h5>Data Source: Eurostat </h5>
+    </div>
+<! –– ---------------––>
+    <div class="section1" >
+    <br>
+    <h3>Since 2008 financial crisis, countries from the same regions had similar living expenses 
+    (excluding outliers: Switzerland Luxembourg and Norway).
+    Largest decrease was in United Kingdom starting from 2015 (Brexit?). 
+    The most tremendous increase in living expenses is in Iceland with promising trend in the future. 
+    </h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Where you will spend most of the money?</h2>
+    <h3> Lets' take a look at outstanding countries together with top 4 most 
+    expensive and least expensive countries, where they spending most of the money. </h3>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h4>
+        Notes:
+        </h4>
+        <h4>
+        <font color="#FF5733"> Miscellaneous Good :</font>
+        Personal Care, Social Protection, Insurance, Financial Services, Luxury Goods
+        </h4>
+        <h4>
+        <font color="#3498DB"> Health :</font>
+        Medical Products, Equipment, Therapeutic Appliances, Medical and Dental Services, Hospital Services
+        </h4>
+    </div> 
+<! –– ---------------––>
+<! –– Third Chart ––>
+ <div class="section2">
+    <br>
+    <h2 id="titleis">
+    Cost Distribution
+    </h2>
+ <div id="bar_chart", style="max-width: 80%; max-height: 80%;"></div> 
+  <h5>Data Source: Eurostat</h5>
+ </div>
+
+<! –– ----------- ––>
+    <div class="section1" >
+    <h2>Rent takes most of the money </h2>
+    <h3> Countries with similar living expenses have similar costs distribution.
+    In least expensive countries people spending proportionally more on rent and food.
+    In more expensive countries people spending less on rent and more on health and personal wants.
+    United Kingdom spends almost 1/2 of the budget for a rent, while Iceland spends 1/3 of the budget.
+Additionally, United Kingdom is expensive country, but has unique costs distribution comparing with the other expensive countries.
+    
+    </h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>How much money do we need?</h2>
+    <h3>
+    Based on previous trend, we can explore by how much money we might need to live for different period in different countries.
+    </h3>
+    </div> 
+<! –– Fourth Chart ––>
+ <div class="section2">
+    <br>
+    <h2 id="titleis">
+    Total Living Expenses
+    </h2>
+ <div id="container", style="max-width: 80%; max-height: 80%;"></div>
+  <h5>Data Source: Eurostat</h5>
+ </div>
+
+     <div class="section1" id="conclusion">
+    <h2>1.5mln EUR allows to live for 20 years in any European Country</h2>
+    <h3>
+    Based on the past, countries in the South and East Europe should have more familiar living costs while
+    North and West Europe should have more similar living costs either.
+    The most outstanding group, bottom 6 countries where is enough to live with 400K EUR for 20 Years.
+    Opposite group is the 4 top most expensive countries, where you need at least three times more money. 
+    </h3>
+<br>
+<br>
+<br>
+    <h2>Conclusions</h2>
+    <h3 class='conclusion'>
+    <li>Regions have similar living expenses while people from more expensive countries can cover living expenses easier.</li>
+    </h3>
+    <h3 class='conclusion'>
+    <li>Some countries might have different phenomena as United Kingdom, where living expenses are high, but spending more 
+    on necessary things as rent, food.
+    </li>
+    </h3>
+    <h3 class='conclusion'>
+    <li>
+    People in more expensive countries spending proportionally more on personal wants, less on necessary.
+    </li>
+    </h3>
+    <h3 class='conclusion'>
+    <li>
+    A budget from 350k EUR allows to live in at least one country in a Europe for 20 years.
+    </li>
+    </h3>
+    <h3 class='conclusion'>
+    <li>
+    A budget from 800k EUR allows to live in South and East Europe for 20 years.
+    </li>
+    </h3>
+    
+    </div> 
+<! –– ------------––>
+<! –– ------------––> 
+    </body>
+</html>
