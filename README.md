@@ -1,4 +1,4 @@
-## Machine Learning for Credit Scoring
+## Data Story: How much money do you need to live in different European countries?
 
 This project is a part of coursework of Data Visualisation from University of Southampton.
 
