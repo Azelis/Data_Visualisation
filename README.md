@@ -12,13 +12,13 @@ Manipulated raw data from Eurostat about living prices with python to have two o
 - CSV data for Tableau
 - JSON for JS Google Chart (Dictionaries)
 
-- **Tableau** graphs: 
+**Tableau** graphs: 
 1. European map
 2. European map with pie charts
 
-- **JS** graphs: 
-- Line graphs by separate European region
-- Vertical Stacked Bars
-- Horizontal Stacked Bars
+**JS** graphs: 
+1. Line graphs by separate European region
+2. Vertical Stacked Bars
+3. Horizontal Stacked Bars
 
 To view files as a website: https://azelis.github.io/Data_Visualisation/
