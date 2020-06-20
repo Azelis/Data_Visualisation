@@ -6,3 +6,4 @@ A project consist of narrative, interactive data story with related charts and d
 
 Used **HTML**, **CSS** and **Javascript** to build an interactive data story. Utilized Javascript (Google Charts JS) and Tableau to create graphs. Added interactivity, tooltips, toolbars to the graphs
 
+To view files as a website: https://azelis.github.io/Data_Visualisation/
