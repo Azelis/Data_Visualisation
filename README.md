@@ -1,6 +1,6 @@
 ## Data Story: How much money do you need to live in different European countries?
 
-This project is a part of coursework of Data Visualisation from University of Southampton.
+This project is a part of coursework of Data Visualisation (COMP6234) from University of Southampton.
 
 A project consist of narrative, interactive data story with related charts and data (Eurostat) to provide information in visual way.
 
