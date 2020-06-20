@@ -4,7 +4,7 @@ This project is a part of coursework of Data Visualisation from University of So
 
 A project consist of narrative, interactive data story with related charts and data (Eurostat) to provide information in visual way.
 
-Used **HTML**, **CSS** and **Javascript** to build an interactive data story. Utilized Javascript (Google Charts JS) and Tableau to create graphs. Added interactivity, tooltips, toolbars to all the graphs.
+Used **HTML**, **CSS** and **Javascript** to build an interactive data story. Utilized Javascript (**Google Charts JS**) and Tableau to create graphs. Added interactivity, tooltips, toolbars to all the graphs.
 
 The idea to have an outcome 3 files (html, css and js), so the data is automatically included in JS file (which can be done by having separate JSON file or CSV files). Tableau graphs and data is included from my personal Tableau account.
 
